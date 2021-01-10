@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinzar_Catalin_BugApp", "Pinzar_Catalin_BugApp.csproj", "{EDB92A8F-046C-4A9B-9989-55CDF7983830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pinzar_Catalin_BugApp", "Pinzar_Catalin_BugApp.csproj", "{EDB92A8F-046C-4A9B-9989-55CDF7983830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcEmployeeService", "GrpcEmployeeService\GrpcEmployeeService.csproj", "{12D12F47-6FB7-421D-90F5-71689021D608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E77366B-7056-4273-BD4E-6DD063EAF4C5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{EDB92A8F-046C-4A9B-9989-55CDF7983830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB92A8F-046C-4A9B-9989-55CDF7983830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB92A8F-046C-4A9B-9989-55CDF7983830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D12F47-6FB7-421D-90F5-71689021D608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D12F47-6FB7-421D-90F5-71689021D608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D12F47-6FB7-421D-90F5-71689021D608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D12F47-6FB7-421D-90F5-71689021D608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
